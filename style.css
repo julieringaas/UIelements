@@ -1,0 +1,79 @@
+:root {
+  /*   --bg-color: #6c7d6a;
+    --link-color: #185d0b;
+    --link-hover-color: #185d0b;
+    --color-4: #185d0b;
+    --color-5: #185d0b;
+   */
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Lato", sans-serif;
+  --main-text-color: #0511f2;
+
+  --white-space: 1rem;
+}
+
+body {
+  padding: 0xp;
+  margin: 0px;
+  background-image: url(/img/bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  gap: 7rem;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 1rem;
+  margin-right: 15rem;
+  margin-left: 5rem;
+  font-family: var(--primary-font);
+  /* background-color: blue; */
+  margin: 0px;
+  padding: 7vw;
+}
+
+a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.1rem;
+  color: white;
+}
+
+nav a:first-child {
+  margin-right: auto;
+  font-size: 3rem;
+  font-weight: 700;
+  /*  margin-top: -0.5rem; */
+  font-family: var(--primary-font);
+  margin-left: 5rem;
+}
+
+.logo {
+  width: 4vw;
+}
+
+section {
+  display: grid;
+  margin-right: 11vw;
+  margin-left: 11vw;
+  margin-top: 11vw;
+  font-family: var(--primary-font);
+  font-size: 30px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+main {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+footer {
+  background-color: #0511f2;
+}
