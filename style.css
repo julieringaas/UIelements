@@ -149,3 +149,7 @@ button:hover {
   margin-top: 10vh;
   padding-left: 5vw;
 }
+
+ul {
+  font-size: 1.2rem;
+}
