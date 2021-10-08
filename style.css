@@ -153,3 +153,10 @@ button:hover {
 ul {
   font-size: 1.2rem;
 }
+
+h3 {
+  color: white;
+  margin-left: 25vw;
+  padding-top: 25vh;
+  font-family: var(--primary-font);
+}
